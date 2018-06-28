@@ -3,6 +3,5 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  var cao = document.getElementById("id");
-  console.log(cao);
+  return document.querySelector('#nested .target')
 }
