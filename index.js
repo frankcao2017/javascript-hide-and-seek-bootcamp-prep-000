@@ -1,4 +1,6 @@
-function getFirstSelector(main) {
-  var main = document.getElementById("id");
-  return main;
+
+
+
+function getFirstSelector(s) {
+  return document.querySelector(s)
 }
